@@ -68,7 +68,25 @@
 /* #endregion DEBUG */
 
 
+/* #region utility */
+
+.mc_bg_dark {
+    background-color: var(--dark);
+}
+
+.mc_text_black {
+    color: black !important;
+}
+
+
+/* #endregion utility */
+
+
 /* #region header */
+
+.dropdown-menu[data-bs-popper] {
+    left: auto !important;
+}
 
 
 /* #endregion header */
