@@ -4,5 +4,83 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --light: #BEBCBB;
+    --footer-color: #00439C;
+    --logo-color: #0070D1;
+    --darker: #1F1F1F;
+    --bg-primary-btn: #2D64E6;
+    --dark: #363636;
+    --bg-danger: #CD3D0F;
+    --lighter: #D9DADC;
+}
+
 
 /* #endregion Common */
+
+
+/* #region DEBUG */
+
+.debug .logo {
+    height: 50px;
+}
+
+.debug .navbar {
+    height: 100px;
+}
+
+.debug .jumbotron_top,
+.debug .jumbotron_middle {
+    height: 650px;
+    background-color: red;
+}
+
+.debug .sliders_game,
+.debug .sliders_accessories {
+    height: 200px;
+    background-color: rgb(224, 165, 36);
+}
+
+.debug .ps5_presentation,
+.debug .ps4_accessories,
+.debug .discounts {
+    height: 800px;
+    background-color: rgb(60, 255, 0);
+}
+
+.debug .jumbotron_ps_plus,
+.debug .jumbotron_ps_now {
+    height: 400px;
+    background-color: rgb(225, 0, 255);
+}
+
+.debug .social {
+    height: 350px;
+    background-color: rgb(0, 217, 255);
+}
+
+.debug .footer_site {
+    height: 700px;
+    background-color: rgb(166, 255, 0);
+}
+
+
+/* #endregion DEBUG */
+
+
+/* #region header */
+
+
+/* #endregion header */
+
+
+/* #region main */
+
+
+/* #endregion main */
+
+
+/* #region footer */
+
+
+/* #endregion footer */
