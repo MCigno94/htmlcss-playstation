@@ -94,6 +94,10 @@
     font-size: 18px;
 }
 
+.mc_rounded_1 {
+    border-radius: 1rem;
+}
+
 
 /* #endregion utility */
 
