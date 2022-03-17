@@ -116,12 +116,21 @@
 
 .jumbotron_top {
     background-image: url('../img/jumbo-bg.png');
+}
+
+.jumbotron_top,
+.jumbotron_middle {
     background-size: cover;
     background-position: center;
 }
 
-.jumbotron_top .container {
+.jumbotron_top .container,
+.jumbotron_middle .container {
     height: 700px;
+}
+
+.jumbotron_middle {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
 
 
