@@ -74,8 +74,24 @@
     background-color: var(--dark);
 }
 
+.mc_bg_danger {
+    background-color: var(--bg-danger);
+}
+
+.mc_bg_white {
+    background-color: white;
+}
+
 .mc_text_black {
     color: black !important;
+}
+
+.p_t {
+    padding-top: 10rem;
+}
+
+.txt_size_18px {
+    font-size: 18px;
 }
 
 
@@ -93,6 +109,16 @@
 
 
 /* #region main */
+
+.jumbotron_top {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron_top .container {
+    height: 700px;
+}
 
 
 /* #endregion main */
