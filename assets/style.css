@@ -16,6 +16,10 @@
     --bg-PsNow: #161C3B;
 }
 
+ul {
+    list-style-type: none;
+}
+
 
 /* #endregion Common */
 
