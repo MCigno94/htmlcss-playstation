@@ -154,8 +154,25 @@ ul {
     background-position: center;
 }
 
+
+/* jumbotron_middle */
+
 .jumbotron_middle {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+.jumbotron_middle .col.pb-3 {
+    background-color: #36363647;
+    border-radius: 30px;
+    box-shadow: inset 0 0 130px 0px #36363696;
+}
+
+
+/* sliders_accessories */
+
+.sliders_accessories .col {
+    border-radius: 15px;
+    box-shadow: 0 0 16px 0px #36363636;
 }
 
 
