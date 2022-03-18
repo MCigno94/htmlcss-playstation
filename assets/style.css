@@ -13,6 +13,7 @@
     --dark: #363636;
     --bg-danger: #CD3D0F;
     --lighter: #D9DADC;
+    --bg-PsNow: #161C3B;
 }
 
 
@@ -82,12 +83,33 @@
     background-color: white;
 }
 
+.mc_bg_light {
+    background-color: var(--light);
+}
+
+.mc_bg_lighter {
+    background-color: var(--lighter);
+}
+
+.mc_bg_PSNow {
+    background-color: var(--bg-PsNow);
+}
+
+.mc_bg_white {
+    background-color: white;
+}
+
 .mc_text_black {
     color: black !important;
 }
 
-.p_t {
-    padding-top: 10rem;
+.mc_p_t {
+    padding-top: 19rem;
+}
+
+.mc_px_6 {
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .txt_size_18px {
@@ -122,11 +144,6 @@
 .jumbotron_middle {
     background-size: cover;
     background-position: center;
-}
-
-.jumbotron_top .container,
-.jumbotron_middle .container {
-    height: 700px;
 }
 
 .jumbotron_middle {
