@@ -116,8 +116,8 @@ ul {
 }
 
 .mc_px_6 {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .txt_size_18px {
@@ -155,6 +155,27 @@ ul {
 }
 
 
+/* sliders_game */
+
+.card:hover {
+    border-radius: ;
+    animation: mc_move 2s infinite;
+    box-shadow: 0 0 20px 0px #0070D1;
+}
+
+@keyframes mc_move {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 10px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+
 /* jumbotron_middle */
 
 .jumbotron_middle {
@@ -164,15 +185,39 @@ ul {
 .jumbotron_middle .col.pb-3 {
     background-color: #36363647;
     border-radius: 30px;
-    box-shadow: inset 0 0 130px 0px #36363696;
+    box-shadow: 0 0 20px 0px #36363696;
 }
 
 
 /* sliders_accessories */
 
+.sliders_accessories .row {
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
 .sliders_accessories .col {
     border-radius: 15px;
     box-shadow: 0 0 16px 0px #36363636;
+    transition: all 1s;
+}
+
+.sliders_accessories .col .card img {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    filter: opacity(0.6);
+    transition: all 1s;
+}
+
+.sliders_accessories .col:hover img {
+    transition: all 1s;
+    filter: opacity(1);
+}
+
+.sliders_accessories .col:hover {
+    box-shadow: 0 0 16px 0px #0070D1;
+    transition: all 1s;
+    cursor: pointer;
 }
 
 
