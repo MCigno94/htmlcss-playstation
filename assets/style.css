@@ -99,6 +99,10 @@
     background-color: white;
 }
 
+.mc_bg_footer {
+    background-color: var(--footer-color);
+}
+
 .mc_text_black {
     color: black !important;
 }
