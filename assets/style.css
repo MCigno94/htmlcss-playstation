@@ -134,8 +134,12 @@ ul {
 
 /* #region header */
 
-.dropdown-menu[data-bs-popper] {
+.lens .dropdown-menu[data-bs-popper] {
     left: auto !important;
+}
+
+.dropdown-menu {
+    transition: 2s all;
 }
 
 
@@ -157,10 +161,10 @@ ul {
 
 /* sliders_game */
 
-.card:hover {
-    border-radius: ;
-    animation: mc_move 2s infinite;
-    box-shadow: 0 0 20px 0px #0070D1;
+.sliders_game .card:hover {
+    padding: 1px;
+    animation: mc_move 1s infinite;
+    box-shadow: 0 0 5px 3px #0070D1;
 }
 
 @keyframes mc_move {
@@ -221,6 +225,14 @@ ul {
 }
 
 
+/* new_releases */
+
+.new_releases .card:hover {
+    transition: 1 s all;
+    transform: scale(1.1);
+}
+
+
 /* #endregion main */
 
 
@@ -228,3 +240,7 @@ ul {
 
 
 /* #endregion footer */
+
+
+/* per i bottoni
+transition: box-shadow .15s ease-in-out; */
