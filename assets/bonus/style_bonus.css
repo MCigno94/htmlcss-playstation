@@ -1,0 +1,37 @@
+header .menu a {
+    font-size: large;
+    font-weight: bold;
+}
+
+.jumbotrone_top2 .btn::before {
+    font: var(--fa-font-solid);
+    content: "\f04b";
+}
+
+.jumbotron_top2 {
+    height: 850px;
+    background-image: url('https://images.everyeye.it/img-sondaggi/ps5-gioco-lancio-comprerai-console-v7-1572-1280x720.jpg');
+}
+
+.jumbotron_top2 .logo_ps5 {
+    filter: invert(1);
+}
+
+.jumbotron_top2 .hero_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+}
+
+.jumbotron_top2,
+.jumbotron_middle {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron_top2 .hero_text {
+    background-color: rgba(0, 0, 0, 0.8);
+}

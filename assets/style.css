@@ -215,6 +215,13 @@ li.d-inline-block a {
     background-repeat: no-repeat;
 }
 
+.jumbotron_top .col.pb-3,
+.jumbotron_middle .col.pb-3 {
+    background-color: #36363647;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0px #36363696;
+}
+
 
 /* sliders_game */
 
@@ -234,13 +241,6 @@ li.d-inline-block a {
 
 .jumbotron_middle {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-}
-
-.jumbotron_top .col.pb-3,
-.jumbotron_middle .col.pb-3 {
-    background-color: #36363647;
-    border-radius: 30px;
-    box-shadow: 0 0 20px 0px #36363696;
 }
 
 
@@ -300,7 +300,7 @@ li.d-inline-block a {
 /* #endregion footer */
 
 @media screen and ( min-width: 1200px) {
-    .sliders_accessories .txt_size_14px {
+    .txt_size_14px {
         font-size: 18px;
     }
 }
