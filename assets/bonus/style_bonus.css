@@ -3,9 +3,11 @@ header .menu a {
     font-weight: bold;
 }
 
-.jumbotrone_top2 .btn::before {
-    font: var(--fa-font-solid);
-    content: "\f04b";
+.mc_container {
+    width: 1680px;
+    padding: 0 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .jumbotron_top2 {
@@ -33,5 +35,29 @@ header .menu a {
 }
 
 .jumbotron_top2 .hero_text {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.esclusive .image_big img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.esclusive .image_video img {
+    width: 80%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+}
+
+.first_game .image_video {
+    top: -50px;
+    right: 70px;
+}
+
+.second_game .image_video {
+    top: -50px;
+    left: 70px;
 }
